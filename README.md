@@ -1058,6 +1058,14 @@ See:
 - [next-after](https://github.com/scijs/nextafter) 
 - [interval-arithmetic](https://github.com/maurizzzio/interval-arithmetic)
 
+## Congruence
+
+Saying that a is congruent to b, modulus c is equivalent to:
+
+```js
+a % c == b % c
+```
+
 ## more...
 
 Like this guide? Suggest some [more features](https://github.com/Jam3/math-as-code/issues/1) or send us a Pull Request!
