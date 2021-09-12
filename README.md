@@ -1058,12 +1058,18 @@ See:
 - [next-after](https://github.com/scijs/nextafter) 
 - [interval-arithmetic](https://github.com/maurizzzio/interval-arithmetic)
 
-## Congruence
+## modular congruence
 
-Saying that a is congruent to b, modulus c is equivalent to:
+Saying that `a` is congruent to `b`, modulus `c` is equivalent to:
 
 ```js
 a % c == b % c
+```
+
+Or also:
+
+```js
+a - c % b == 0
 ```
 
 ## more...
